@@ -1,19 +1,124 @@
-　　<!DOCTYPE html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>{{ page.title }}</title>
+   <meta name="description" content="Jigar Patel: A freelance ruby
+   programmer, web developer, Linux enthusiast and lone traveler.
+   @jagira on Twitter/Github/HN/Reddit">
+   <meta name="author" content="Jigar Patel" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="http://feeds.feedburner.com/jigar_patel" rel="alternate"
+   title="Jigar Patel" type="application/atom+xml" />
 
-　　<html>
+   <!-- Bootstrap -->
+   <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap-responsive.min.css" type="text/css" media="screen, projection" />
+   <link rel="stylesheet" href="/assets/css/font-awesome.min.css" type="text/css" media="screen, projection" />
 
-　　<head>
+   <!-- syntax highlighting CSS -->
+   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
 
-　　　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <!-- Homepage CSS -->
+   <link rel="stylesheet" href="/css/custom.css" type="text/css" media="screen, projection" />
 
-　　　　<title>{{ page.title }}</title>
+   <script src="/assets/bootstrap/js/jquery.js"></script>
+   <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
 
-　　</head>
+   <!-- GA -->
+   <script type="text/javascript">
 
-　　<body>
+     var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-12726609-8']);
+     _gaq.push(['_trackPageview']);
 
-　　　　{{ content }}
+     (function() {
+      var ga = document.createElement('script'); ga.type =
+      'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol
+        ? 'https://ssl' : 'http://www') +
+      '.google-analytics.com/ga.js';
+      var s =
+      document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+      })();
 
-　　</body>
+    </script>
 
-　　</html>
+    <!-- Place this tag in the <head> of your document -->
+    <link href="https://plus.google.com/104203157281843238920" rel="author" />
+</head>
+<body>
+
+<!-- ClickTale Top part -->
+<script type="text/javascript">
+var WRInitTime=(new Date()).getTime();
+</script>
+<!-- ClickTale end of Top part -->
+
+<header>
+  <div class="container">
+    <div class="header-avatar">
+      <a class="avatar-link" href="/" style="background-image:url(/assets/img/jap.png)"></a>
+    </div>
+    <div class="header-title">
+      <h1>Howdy, I'm Jigar Patel.</h1>
+      <h2>I'm a developer & a tinkerer. <!--<a
+          href="https://twitter.com/jagira" title="@jagira"
+          target="_blank">@jagira</a>-->
+    </div>
+  </div>
+</header>
+
+<div class="title">
+  <div class="container">
+    <a title="home" href="/"><i class="icon-home"></i> Home</a>
+    <a title="about" href="/about.html"><i class="icon-user"></i> About</a>
+    <a title="work" href="/work.html"><i class="icon-suitcase"></i> Work</a>
+  </div>
+</div>
+
+<div id="main">
+  <div class="container">
+    {{ content }}
+  </div>
+</div>
+
+<div class="footer">
+  <div class="container clearfix">
+    <div class="pull-left">
+      <img src="/images/cc_icon.png" style="width: 14px; height: 14px;"></img> &nbsp;
+    </div>
+    <div class="profile-links pull-right">
+      <p>
+      <a href="http://feeds.feedburner.com/jigar_patel" title="RSS">
+        <i class="icon-rss"></i>
+       </a>
+      <a href="http://github.com/jagira/" title="Github"><i
+          class="icon-github-sign"></i></a>
+ <!--     <a href="http://twitter.com/jagira/" title="twitter"><i
+         class="icon-twitter"></i></a>-->
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+  var sc_project=6727808; 
+  var sc_invisible=1; 
+  var sc_security="d04cb966"; 
+</script>
+<script type="text/javascript"
+  src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="visit tracker
+      on tumblr" href="http://statcounter.com/tumblr/"
+      target="_blank"><img class="statcounter"
+      src="http://c.statcounter.com/6727808/0/d04cb966/1/"
+      alt="visit tracker on tumblr"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+
+
+</body>
+</html>
