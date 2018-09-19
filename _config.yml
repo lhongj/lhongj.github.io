@@ -22,8 +22,12 @@ github_username:  lhongj
 # Build settings
 markdown: kramdown
 theme: minima
-#plugins:
-#  - jekyll-feed
+
+paginate: 5  # 每页显示的文章数量
+paginate_path: "page:num"   #分页页面路径格式
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
