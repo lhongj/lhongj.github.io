@@ -4,4 +4,10 @@ title: About
 permalink: /about/
 ---
 
-很懒，什么也没写
+Top languages
+* python
+
+Most used tool
+* vim
+* linux
+* spark
